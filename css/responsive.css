@@ -1,0 +1,16 @@
+@media only screen and (min-width: 750px) {
+    #restaurants-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #restaurants-list li {
+        width: 40vw;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    #restaurants-list li {
+        width: 30vw;
+    }
+}
