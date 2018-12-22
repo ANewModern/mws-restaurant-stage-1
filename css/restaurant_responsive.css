@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1100px) {
+    #breadcrumb {
+        width: 50%;
+    }
+    .inside header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .inside #map-container {
+        height: 100%;
+        position: fixed;
+        right: 0;
+        top: 80px;
+        width: 50%;
+    }
+    .inside #footer {
+        bottom: 0;
+        position: absolute;
+        width: 50%;
+    }
+    #restaurant-container, #reviews-container {
+        width: 50%;
+    }
+}
